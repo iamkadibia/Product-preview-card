@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Preview Card</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="min-h-screen grid sm:place-content-center bg-orange-50">
+    <main class="">
+      <section
+        class="h-3/4 sm:w-[612px] sm:h-[460px] flex flex-col sm:flex-row rounded-md mt-8 my-8 mx-4"
+      >
+        <article
+          class="w-full sm:h-full sm:w-1/2 bg-white flex flex-col order-2 p-8 rounded-b-lg sm:rounded-bl-none sm:rounded-tr-lg"
+        >
+          <p
+            class="text-sm font-montserrat pt-0 tracking-[0.25rem] uppercase text-grayish-blue"
+          >
+            Perfume
+          </p>
+          <h2
+            class="text-4xl py-6 font-fraunces font-extrabold text-dark-blue sm:text-3xl"
+          >
+            Gabrielle Essence Eau De Perfume
+          </h2>
+
+          <p class="text-sm font-montserrat pb-6 text-grayish-blue leading-6">
+            A floral, solar and voluptous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the house of CHANEL
+          </p>
+
+          <div class="flex">
+            <h2
+              class="text-4xl sm:text-3xl font-fraunces font-extrabold text-dark-cyan pb-6"
+            >
+              $149.99
+            </h2>
+
+            <span
+              class="text-sm sm:text-xs px-4 py-2 font-montserrat text-grayish-blue mr-1"
+            >
+              $169.99
+              <hr class="h-px border-grayish-blue mt-[-9px]" />
+            </span>
+          </div>
+
+          <button
+            class="w-full h-12 rounded-lg flex items-center justify-center font-montserrat font-medium bg-dark-cyan hover:bg-darkar-cyan transition-all duration-300 text-white mx-auto"
+          >
+            <div class="px-2">
+              <img class="" src="/images/icon-cart.svg" alt="" />
+            </div>
+            Add to cart
+          </button>
+        </article>
+        <img
+          class="h-[35%] object-cover sm:h-full sm:w-1/2 order-1 rounded-t-lg sm:rounded-tr-none sm:rounded-bl-lg"
+          src="/images/image-product-desktop.jpg"
+          alt=""
+        />
+      </section>
+    </main>
+  </body>
+</html>
